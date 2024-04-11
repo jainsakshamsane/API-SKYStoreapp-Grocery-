@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dividerColor">#CCCCCC</color>
+    <color name="borderColor">#E0E0E0</color>
+    <color name="backgroundColor">@android:color/background_light</color>
+    <color name="popup_background_color">#FF4081</color>
+    <color name="green">#2e634f</color>
+</resources>

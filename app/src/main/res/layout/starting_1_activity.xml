@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Heading -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shopping for your Products needs  "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        />
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="for your  "-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/black"-->
+
+<!--        />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Products needs  "-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_marginBottom="16dp"/>-->
+
+    <!-- Paragraph -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Shopping for various products can be an exciting yet thoughtful endeavor. One of the fundamental aspects of a successful shopping experience is establishing a budget beforehand. A well-defined budget not only prevents overspending but also allows for a more conscious evaluation of the value each purchase brings."
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/rectangle_backround_border"
+
+        android:gravity="center"
+        android:padding="3dp"
+
+
+        android:text="Skip"
+        android:textColor="#2E6E4F"
+        android:textStyle="bold"></TextView>
+    <!-- Image at bottom right corner -->
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+android:layout_marginTop="40dp"
+
+        android:src="@drawable/skystore2" />
+
+</LinearLayout>

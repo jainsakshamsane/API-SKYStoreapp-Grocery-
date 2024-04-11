@@ -1,0 +1,5 @@
+<!-- res/drawable/rounded_rectangle.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#8D6EB7" /> <!-- Set the inside color to light black -->
+    <corners android:radius="10dp" /> <!-- Adjust the radius to control the curvature of the corners -->
+</shape>

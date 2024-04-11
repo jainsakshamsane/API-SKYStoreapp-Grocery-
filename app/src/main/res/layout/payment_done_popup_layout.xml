@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/rounded_corner_bg"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="151dp"
+            android:layout_height="145dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/circles" />
+        <TextView
+            android:id="@+id/paymentStatusTextVieww"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Success"
+            android:textSize="35sp"
+            android:textColor="@android:color/black"/>
+
+        <!-- TextView -->
+        <TextView
+            android:id="@+id/paymentStatusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Thank you for shopping"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+        <!-- Button -->
+        <TextView
+            android:id="@+id/checkout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/rectangle_background"
+            android:backgroundTint="#2E6E4F"
+            android:gravity="center"
+            android:text="Proceed"
+            android:textAlignment="center"
+            android:textColor="#FCD669"
+            android:textSize="20dp"
+             />
+
+    </LinearLayout>
+</RelativeLayout>
